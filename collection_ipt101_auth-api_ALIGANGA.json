@@ -1,0 +1,88 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "ALIGANGA",
+    "dateExported": "2023-04-25T12:26:49.690Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c7cccad1-20fe-4f95-94d0-74e9a140cf40",
+            "colId": "2b068435-8d15-4b02-9299-424203919893",
+            "containerId": "",
+            "name": "UPDATE",
+            "url": "http://localhost:4000/users/1",
+            "method": "PUT",
+            "sortNum": 10000,
+            "created": "2023-04-25T12:25:31.184Z",
+            "modified": "2023-04-25T12:25:31.184Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"firstName\": \"Jeff\",\r\n    \"lastName\": \"Kirk\",\r\n    \"username\": \"jeff\"\r\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTY4MjQyNDczOSwiZXhwIjoxNjgzMDI5NTM5fQ.CK3B128cQoQtwkUHLPwAy-MlHuG2QSIkcqy7vFPsb3o"
+            },
+            "tests": []
+        },
+        {
+            "_id": "60bc8c7b-beea-476e-b8e4-cc520cb56fb7",
+            "colId": "2b068435-8d15-4b02-9299-424203919893",
+            "containerId": "",
+            "name": "ViewUsers",
+            "url": "http://localhost:4000/users",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-04-25T12:25:57.737Z",
+            "modified": "2023-04-25T12:25:57.737Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTY4MjQyNDczOSwiZXhwIjoxNjgzMDI5NTM5fQ.CK3B128cQoQtwkUHLPwAy-MlHuG2QSIkcqy7vFPsb3o"
+            },
+            "tests": []
+        },
+        {
+            "_id": "c3d91850-2372-4261-b53b-c363fec5da0e",
+            "colId": "2b068435-8d15-4b02-9299-424203919893",
+            "containerId": "",
+            "name": "Authentication",
+            "url": "http://localhost:4000/users/authenticate",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-04-25T12:26:26.138Z",
+            "modified": "2023-04-25T12:26:26.138Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"username\": \"jason\",\r\n    \"password\": \"my-super-secret-password\"\r\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "79693c2a-746e-4cd0-b23d-ded8c0bc1af0",
+            "colId": "2b068435-8d15-4b02-9299-424203919893",
+            "containerId": "",
+            "name": "REGISTER",
+            "url": "http://localhost:4000/users/register",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-04-25T12:26:40.616Z",
+            "modified": "2023-04-25T12:26:40.616Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"firstName\": \"Jason\",\r\n    \"lastName\": \"Watmore\",\r\n    \"username\": \"jason\",\r\n    \"password\": \"my-super-secret-password\"\r\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
